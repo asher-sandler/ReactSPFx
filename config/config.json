@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "as-wp-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/asWpReact/AsWpReactWebPart.js",
+          "manifest": "./src/webparts/asWpReact/AsWpReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AsWpReactWebPartStrings": "lib/webparts/asWpReact/loc/{locale}.js"
+  }
+}
